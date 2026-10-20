@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research datasets not intended for publication
+data/raw/
+data/private/
+data/interim/
+data/processed/
+
+# Large local archives
+*.zip
+*.7z
+*.rar
+
+# Credentials and sensitive information
+secrets/
+credentials.json
+token.json
+*.pem
+*.key
+.env.*
+
+# Local database files
+*.sqlite
+*.db
+
