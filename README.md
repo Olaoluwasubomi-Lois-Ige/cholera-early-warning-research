@@ -15,11 +15,29 @@ The project involved:
 - Evaluating predictive model performance.
 - Examining statistical results in the context of infectious disease early warning.
 
+
 ## Research Code
 
-Selected Python scripts and Jupyter notebooks from the original research will be added after reviewing the code, its dependencies and data-sharing requirements.
+This repository contains computational work from my
+2026 MSc research at AIMS Rwanda.
 
-The repository will document the computational methods, implementation details and validation procedures supported by the original research materials.
+The repository includes:
+
+- `notebooks/`: Combined Nigeria and Benin research notebook,
+  with saved outputs removed.
+- `src/cholera_early_warning/`: Python modules for data
+  preprocessing and chronological model validation.
+- `tests/`: Automated tests for selected mathematical
+  calculations using synthetic datasets.
+- `docs/`: Implementation notes and documentation.
+
+The code covers training-based outbreak thresholds,
+lagged predictor construction and walk-forward validation.
+
+The original research used logistic regression, random
+forest and Bayesian logistic regression to examine
+weekly cholera outbreak risk.
+
 
 ## Researcher
 
@@ -31,6 +49,15 @@ African Institute for Mathematical Sciences (AIMS Rwanda)
 
 **Research year:** 2026
 
+
 ## Repository Status
 
-In preparation. Research code and supporting documentation have not yet been uploaded.
+The research notebook, extracted Python modules and
+automated tests have been added.
+
+The tests use synthetic data. Full reproduction of the
+thesis results requires the original surveillance and
+climate datasets, which are not included in this repository.
+
+The repository remains under review before public release.
+
