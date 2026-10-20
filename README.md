@@ -61,3 +61,28 @@ climate datasets, which are not included in this repository.
 
 The repository remains under review before public release.
 
+
+## Running the Automated Tests
+
+The repository includes automated tests for selected
+mathematical computations and validation procedures.
+
+From the repository's root directory, install the
+required packages:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Run the tests:
+
+```bash
+python -m pytest -q
+```
+
+The current test suite contains 12 tests, all of which
+passed locally using Python 3.13.9.
+
+These tests use synthetic data and do not reproduce
+the complete MSc analysis.
+
