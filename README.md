@@ -102,7 +102,7 @@ cholera-early-warning-research/
 └── README.md
 ```
 
-- **notebooks/** contains the original combined research notebook.
+- **notebooks/** contains a copy of the original research notebook with saved outputs cleared.
 - **src/** contains reusable computational functions extracted from the research workflow.
 - **tests/** contains automated tests using synthetic data.
 - **docs/** contains implementation notes and computational verification results.
@@ -124,7 +124,7 @@ Reproducing the complete original notebook additionally requires the HDX surveil
 
 The original notebook reads input files relative to its working directory. Dataset filenames and preparation details are documented in the notebook and supporting implementation notes.
 
-Raw datasets are not included in the repository pending confirmation of redistribution permissions.
+Raw datasets are not included in this repository. The original analysis used HDX cholera surveillance data and NASA POWER climate data.
 
 See [Computational Verification](docs/cholera_reproduction_verification.md) for the independently checked data preparation and predictive modelling results.
 
